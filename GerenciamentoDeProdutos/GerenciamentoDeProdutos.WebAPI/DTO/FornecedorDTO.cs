@@ -6,5 +6,4 @@ public class FornecedorDTO
     public string Cnpj { get; set; } = null!;
     public string Contato { get; set; } = null!;
     public string Email { get; set; } = null!;
-
 }
