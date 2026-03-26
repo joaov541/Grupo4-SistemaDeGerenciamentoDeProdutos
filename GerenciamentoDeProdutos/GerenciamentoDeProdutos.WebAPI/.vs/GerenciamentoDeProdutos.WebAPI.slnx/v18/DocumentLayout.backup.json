@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F42B619E-081C-741A-C69E-A2F06CC0718F}|GerenciamentoDeProdutos.WebAPI.csproj|c:\\users\\54470890855\\desktop\\grupo4-sistemadegerenciamentodeprodutos\\gerenciamentodeprodutos\\gerenciamentodeprodutos.webapi\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42B619E-081C-741A-C69E-A2F06CC0718F}|GerenciamentoDeProdutos.WebAPI.csproj|solutionrelative:repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F42B619E-081C-741A-C69E-A2F06CC0718F}|GerenciamentoDeProdutos.WebAPI.csproj|c:\\users\\54470890855\\desktop\\grupo4-sistemadegerenciamentodeprodutos\\gerenciamentodeprodutos\\gerenciamentodeprodutos.webapi\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F42B619E-081C-741A-C69E-A2F06CC0718F}|GerenciamentoDeProdutos.WebAPI.csproj|solutionrelative:repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F42B619E-081C-741A-C69E-A2F06CC0718F}|GerenciamentoDeProdutos.WebAPI.csproj|c:\\users\\54470890855\\desktop\\grupo4-sistemadegerenciamentodeprodutos\\gerenciamentodeprodutos\\gerenciamentodeprodutos.webapi\\repositories\\fornecedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F42B619E-081C-741A-C69E-A2F06CC0718F}|GerenciamentoDeProdutos.WebAPI.csproj|solutionrelative:repositories\\fornecedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F42B619E-081C-741A-C69E-A2F06CC0718F}|GerenciamentoDeProdutos.WebAPI.csproj|c:\\users\\54470890855\\desktop\\grupo4-sistemadegerenciamentodeprodutos\\gerenciamentodeprodutos\\gerenciamentodeprodutos.webapi\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F42B619E-081C-741A-C69E-A2F06CC0718F}|GerenciamentoDeProdutos.WebAPI.csproj|solutionrelative:repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F42B619E-081C-741A-C69E-A2F06CC0718F}|GerenciamentoDeProdutos.WebAPI.csproj|c:\\users\\54470890855\\desktop\\grupo4-sistemadegerenciamentodeprodutos\\gerenciamentodeprodutos\\gerenciamentodeprodutos.webapi\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,24 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProdutoRepository.cs",
               "DocumentMoniker": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\Repositories\\ProdutoRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProdutoRepository.cs",
               "ToolTip": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\Repositories\\ProdutoRepository.cs",
               "RelativeToolTip": "Repositories\\ProdutoRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T19:20:32.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FornecedorRepository.cs",
               "DocumentMoniker": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\Repositories\\FornecedorRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\FornecedorRepository.cs",
@@ -75,18 +75,17 @@
               "RelativeToolTip": "Repositories\\FornecedorRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T19:19:54.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:19:54.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CategoriaRepository.cs",
               "DocumentMoniker": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\Repositories\\CategoriaRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CategoriaRepository.cs",
               "ToolTip": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\Repositories\\CategoriaRepository.cs",
               "RelativeToolTip": "Repositories\\CategoriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T19:19:12.497Z",
               "EditorCaption": ""
@@ -101,8 +100,7 @@
               "RelativeToolTip": "Interfaces\\ICategoriaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T19:17:59.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:17:59.783Z"
             },
             {
               "$type": "Document",
@@ -114,8 +112,7 @@
               "RelativeToolTip": "Interfaces\\IProdutoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T19:16:54.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:16:54.258Z"
             },
             {
               "$type": "Document",
@@ -127,21 +124,19 @@
               "RelativeToolTip": "Interfaces\\IFornecedorRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T19:14:00.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:14:00.006Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "GerenciamentoDeProdutos.WebAPI",
+              "Title": "GerenciamentoDeProdutos.WebAPI.csproj",
               "DocumentMoniker": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
               "RelativeDocumentMoniker": "GerenciamentoDeProdutos.WebAPI.csproj",
               "ToolTip": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
               "RelativeToolTip": "GerenciamentoDeProdutos.WebAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-26T19:13:33.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:13:33.535Z"
             },
             {
               "$type": "Document",
@@ -153,8 +148,7 @@
               "RelativeToolTip": "Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T19:11:41.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:11:41.737Z"
             },
             {
               "$type": "Document",
@@ -166,8 +160,7 @@
               "RelativeToolTip": "DTO\\FornecedorDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T19:12:29.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:12:29.902Z"
             },
             {
               "$type": "Document",
@@ -179,8 +172,7 @@
               "RelativeToolTip": "BdContextLoja\\LojaContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T18:36:40.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T18:36:40.718Z"
             }
           ]
         }
