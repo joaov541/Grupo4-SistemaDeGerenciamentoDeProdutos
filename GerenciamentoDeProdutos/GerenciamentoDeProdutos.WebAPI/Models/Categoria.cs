@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GerenciamentoDeProdutos.WebAPI.Models;
 
-public partial class Categorium
+public partial class Categoria
 {
     [Key]
     public Guid IdCategoria { get; set; }
