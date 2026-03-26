@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f2isanhpkLk=",
+  "dgSpecHash": "IK9y9Bxpcvk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\54470890855\\Desktop\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\54470890855\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\54470890855\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

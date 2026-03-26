@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\54470890855\\Desktop\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\54470890855\\Desktop\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\BdContextLoja\\LojaContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BdContextLoja\\LojaContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F42B619E-081C-741A-C69E-A2F06CC0718F}|GerenciamentoDeProdutos.WebAPI.csproj|c:\\users\\54470890855\\desktop\\grupo4-sistemadegerenciamentodeprodutos\\gerenciamentodeprodutos\\gerenciamentodeprodutos.webapi\\bdcontextloja\\lojacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42B619E-081C-741A-C69E-A2F06CC0718F}|GerenciamentoDeProdutos.WebAPI.csproj|solutionrelative:bdcontextloja\\lojacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LojaContext.cs",
-              "DocumentMoniker": "C:\\Users\\54470890855\\Desktop\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\BdContextLoja\\LojaContext.cs",
+              "DocumentMoniker": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\BdContextLoja\\LojaContext.cs",
               "RelativeDocumentMoniker": "BdContextLoja\\LojaContext.cs",
-              "ToolTip": "C:\\Users\\54470890855\\Desktop\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\BdContextLoja\\LojaContext.cs",
+              "ToolTip": "C:\\Users\\54470890855\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\BdContextLoja\\LojaContext.cs",
               "RelativeToolTip": "BdContextLoja\\LojaContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
