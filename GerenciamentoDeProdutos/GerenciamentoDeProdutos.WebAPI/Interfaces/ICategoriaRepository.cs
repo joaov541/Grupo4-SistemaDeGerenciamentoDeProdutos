@@ -8,5 +8,5 @@ public interface ICategoriaRepository
     List<Categoria> Listar();
     void Deletar(Guid id);
     void Atualizar(Guid id);
-    List<Categoria> BuscarPorId(Guid id);
+    Categoria BuscarPorId(Guid id);
 }
