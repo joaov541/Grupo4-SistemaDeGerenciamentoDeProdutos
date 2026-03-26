@@ -7,6 +7,6 @@ public interface IProdutoRepository
     void Cadastrar(Produto produto);
     List<Produto> Listar();
     void Deletar(Guid id);
-    void Atualizar(Guid id);
-    List<Produto> BuscarPorId(Guid id);
+    void Atualizar(Guid id, Produto produto);
+    Produto BuscarPorId(Guid id);
 }

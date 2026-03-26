@@ -13,28 +13,41 @@ public class ProdutoRepository : IProdutoRepository
         _context = context;
     }
 
-    public void Atualizar(Guid id)
+    public void Atualizar(Guid id, Produto produto)
     {
-        throw new NotImplementedException();
+        var produtoBuscado = _context.Produtos.Find(id)!;
+
+        if (produtoBuscado != null)
+        {
+            produtoBuscado.Descricao = String.IsNullOrWhiteSpace(produto.Descricao) ?
+                produto.Descricao : produto.Descricao;
+        }
     }
 
     public List<Produto> BuscarPorId(Guid id)
     {
-        throw new NotImplementedException();
+        return _context.Produtos.Find(id)!;
     }
 
     public void Cadastrar(Produto produto)
     {
-        throw new NotImplementedException();
+        _context.Produtos.Add(produto);
+        _context.SaveChanges();
     }
 
     public void Deletar(Guid id)
     {
-        throw new NotImplementedException();
+        var produtoBuscado = _context.Produtos.Find(id);
+
+        if (produtoBuscado != null)
+        {
+            _context.Produtos.Remove(produtoBuscado);
+            _context.SaveChanges();
+        }
     }
 
     public List<Produto> Listar()
     {
-        throw new NotImplementedException();
+        return _context.Produtos.OrderBy(Produto => Produto.Nome).ToList();
     }
 }
