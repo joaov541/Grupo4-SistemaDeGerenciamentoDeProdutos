@@ -13,9 +13,15 @@ public class ProdutoRepository : IProdutoRepository
         _context = context;
     }
 
-    public void Atualizar(Guid id)
+    public void Atualizar(Guid id, Produto produto)
     {
-        
+        var produtoBuscado = _context.Produtos.Find(id)!;
+
+        if (produtoBuscado != null)
+        {
+            produtoBuscado.Descricao = String.IsNullOrWhiteSpace(produto.Descricao) ?
+                produto.Descricao : produto.Descricao;
+        }
     }
 
     public List<Produto> BuscarPorId(Guid id)
