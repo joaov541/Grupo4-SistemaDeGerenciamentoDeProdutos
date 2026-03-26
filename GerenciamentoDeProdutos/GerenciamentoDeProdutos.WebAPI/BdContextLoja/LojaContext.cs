@@ -16,7 +16,7 @@ public partial class LojaContext : DbContext
     {
     }
 
-    public virtual DbSet<Categorium> Categoria { get; set; }
+    public virtual DbSet<Categoria> Categoria { get; set; }
 
     public virtual DbSet<Fornecedor> Fornecedors { get; set; }
 
@@ -28,7 +28,7 @@ public partial class LojaContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Categorium>(entity =>
+        modelBuilder.Entity<Categoria>(entity =>
         {
             entity.HasKey(e => e.IdCategoria).HasName("PK__Categori__A3C02A10A80C03F5");
 

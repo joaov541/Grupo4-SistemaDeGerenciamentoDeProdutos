@@ -35,7 +35,7 @@ public partial class Produto
 
     [ForeignKey("IdCategoria")]
     [InverseProperty("Produtos")]
-    public virtual Categorium IdCategoriaNavigation { get; set; } = null!;
+    public virtual Categoria IdCategoriaNavigation { get; set; } = null!;
 
     [ForeignKey("IdFornecedor")]
     [InverseProperty("Produtos")]
