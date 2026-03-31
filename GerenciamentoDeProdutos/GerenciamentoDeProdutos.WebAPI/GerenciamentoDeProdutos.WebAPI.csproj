@@ -7,6 +7,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\imagens\1e08887a-4de6-4d5e-b9c8-0313451cfe22.jpg" />
+    <Content Remove="wwwroot\imagens\25a7b9f8-5173-42b7-830d-e056cc9eed72.jpg" />
+    <Content Remove="wwwroot\imagens\2f5bee98-59bd-42f0-92e6-366d4fec3d8f.jpg" />
+    <Content Remove="wwwroot\imagens\37be7041-bf5d-478f-a8d6-08e80669576e.jpg" />
+    <Content Remove="wwwroot\imagens\489a5552-0133-45a4-86d2-5f39d7c01f7c.jpg" />
+    <Content Remove="wwwroot\imagens\6040eb3a-bfb3-4e2a-8556-f9810c3699bb.jpg" />
+    <Content Remove="wwwroot\imagens\62f8582a-7087-44e3-9d30-6b9c7a9c0fc9.jpg" />
+    <Content Remove="wwwroot\imagens\65fd354f-3ff5-43c9-89a3-03065a14bcd5.jpg" />
+    <Content Remove="wwwroot\imagens\765d248e-0d64-40cf-8317-b584d58ef5df.jpg" />
+    <Content Remove="wwwroot\imagens\8344c4d3-1b7f-4883-a955-7ac749d15a6f.jpg" />
+    <Content Remove="wwwroot\imagens\9b1f1b28-a73d-4ef5-b566-dd991815c3aa.jpg" />
+    <Content Remove="wwwroot\imagens\b410c017-97c1-4492-b683-2d41d8306b22.jpg" />
+    <Content Remove="wwwroot\imagens\bd36cd08-74dc-45f7-a5f9-79f4a3b5896d.jpg" />
+    <Content Remove="wwwroot\imagens\c3416d40-7265-4db5-b945-95970c47df33.jpg" />
+    <Content Remove="wwwroot\imagens\cb631dc4-ffa6-457f-8141-c890f53dc119.jpg" />
+    <Content Remove="wwwroot\imagens\d6352bad-d478-4306-af6c-7bc7a279e2c7.jpg" />
+    <Content Remove="wwwroot\imagens\daf28f21-8c49-4983-ab83-d01e75edcd6f.jpg" />
+    <Content Remove="wwwroot\imagens\f22da03c-e67e-4da4-861d-0b2a3b11a4cd.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.5" />
@@ -15,6 +36,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\imagens\" />
   </ItemGroup>
 
 </Project>

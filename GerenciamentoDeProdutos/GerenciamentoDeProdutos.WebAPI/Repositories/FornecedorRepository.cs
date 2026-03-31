@@ -29,8 +29,11 @@ public class FornecedorRepository : IFornecedorRepository
             FornecedorBuscado.Cnpj = fornecedor.Cnpj;
             FornecedorBuscado.Contato = fornecedor.Contato;
             FornecedorBuscado.Email = fornecedor.Email;
-            }
+            _context.SaveChanges();
+        }
     }
+
+    
 
 
     /// <summary>
@@ -60,11 +63,11 @@ public class FornecedorRepository : IFornecedorRepository
     /// <param name="id">Id do fornecedor deletado</param>
     public void Deletar(Guid id)
     {
-        var ContatoBuscado = _context.Fornecedors.Find(id);
+        var FornecedorBuscado = _context.Fornecedors.Find(id);
 
-        if (ContatoBuscado != null)
+        if (FornecedorBuscado != null)
         {
-            _context.Fornecedors.Remove(ContatoBuscado);
+            _context.Fornecedors.Remove(FornecedorBuscado);
             _context.SaveChanges();
         }
     }

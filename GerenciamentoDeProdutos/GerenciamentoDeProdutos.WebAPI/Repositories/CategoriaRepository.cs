@@ -56,11 +56,11 @@ public class CategoriaRepository : ICategoriaRepository
     /// <param name="id">Id da categoria deletada</param>
     public void Deletar(Guid id)
     {
-        var CategoriaBuscada = _context.Categoria.Find(id);
+        var categoriaBuscada = _context.Categoria.Find(id);
 
-        if (CategoriaBuscada != null)
+        if (categoriaBuscada != null)
         {
-            _context.Categoria.Remove(CategoriaBuscada);
+            _context.Categoria.Remove(categoriaBuscada);
             _context.SaveChanges();
         }
     }

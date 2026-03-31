@@ -93,7 +93,10 @@ public class FornecedorController : ControllerBase
         {
             var FornecedorAtualizado = new Fornecedor
             {
-               Cnpj = fornecedor.Cnpj!
+                Nome = fornecedor.Nome,
+               Cnpj = fornecedor.Cnpj,
+               Contato = fornecedor.Contato,
+                Email = fornecedor.Email
             };
 
             _fornecedorRepository.Atualizar(id, FornecedorAtualizado);

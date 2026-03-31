@@ -13,6 +13,11 @@ public class ProdutoRepository : IProdutoRepository
         _context = context;
     }
 
+    /// <summary>
+    /// Endpoint da API que atualiza o produto por id
+    /// </summary>
+    /// <param name="id">id do produto atualizado</param>
+    /// <param name="produto">produto atualizado</param>
     public void Atualizar(Guid id, Produto produto)
     {
         var produtoBuscado = _context.Produtos.Find(id)!;
@@ -21,7 +26,20 @@ public class ProdutoRepository : IProdutoRepository
         {
             produtoBuscado.Descricao = String.IsNullOrWhiteSpace(produto.Descricao) ?
                 produto.Descricao : produto.Descricao;
+            _context.SaveChanges();
         }
+    }
+
+
+    /// <summary>
+    /// Endpoint da API que nusca o produto por id
+    /// </summary>
+    /// <param name="id">id do produto buscado</param>
+    /// <returns>Statuscode 200 e produto buscado</returns>
+    public Produto BuscarPorId(Guid id)
+    {
+        return _context.Produtos.Find(id)!;
+        
     }
 
 
@@ -36,6 +54,10 @@ public class ProdutoRepository : IProdutoRepository
         _context.SaveChanges();
     }
 
+    /// <summary>
+    /// Endpoint da API que deleta um produto por id
+    /// </summary>
+    /// <param name="id">id do produto deletado</param>
     public void Deletar(Guid id)
     {
         var produtoBuscado = _context.Produtos.Find(id);
@@ -47,13 +69,15 @@ public class ProdutoRepository : IProdutoRepository
         }
     }
 
+
+    /// <summary>
+    /// Endpoint da API que lista todos os produtos cadastrados
+    /// </summary>
+    /// <returns>Statuscode 200 e lista de produtos</returns>
     public List<Produto> Listar()
     {
         return _context.Produtos.OrderBy(Produto => Produto.Nome).ToList();
     }
 
-    Produto IProdutoRepository.BuscarPorId(Guid id)
-    {
-        throw new NotImplementedException();
-    }
+  
 }
