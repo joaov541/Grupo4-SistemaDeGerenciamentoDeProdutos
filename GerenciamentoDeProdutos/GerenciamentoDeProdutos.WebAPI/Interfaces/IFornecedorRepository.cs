@@ -7,6 +7,6 @@ public interface IFornecedorRepository
     void Cadastrar(Fornecedor fornecedor);
     List<Fornecedor> Listar();
     void Deletar(Guid id);
-    void Atualizar(Guid id);
-    List<Fornecedor> BuscarPorId(Guid id);
+    void Atualizar(Guid id, Fornecedor fornecedor);
+    Fornecedor BuscarPorId(Guid id);
 }

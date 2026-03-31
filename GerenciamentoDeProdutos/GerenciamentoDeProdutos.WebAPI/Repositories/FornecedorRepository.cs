@@ -1,6 +1,7 @@
 ﻿using GerenciamentoDeProdutos.WebAPI.BdContextLoja;
 using GerenciamentoDeProdutos.WebAPI.Interfaces;
 using GerenciamentoDeProdutos.WebAPI.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace GerenciamentoDeProdutos.WebAPI.Repositories;
 
@@ -13,19 +14,27 @@ public class FornecedorRepository : IFornecedorRepository
         _context = context;
     }
 
-    public void Atualizar(Guid id)
+    public void Atualizar(Guid id, Fornecedor fornecedor)
     {
-        throw new NotImplementedException();
+        var FornecedorBuscado = _context.Fornecedors.Find(id);
+        if (FornecedorBuscado != null)
+            {
+            FornecedorBuscado.Nome = fornecedor.Nome;
+            FornecedorBuscado.Cnpj = fornecedor.Cnpj;
+            FornecedorBuscado.Contato = fornecedor.Contato;
+            FornecedorBuscado.Email = fornecedor.Email;
+            }
     }
 
-    public List<Fornecedor> BuscarPorId(Guid id)
+    public Fornecedor BuscarPorId(Guid id)
     {
-        throw new NotImplementedException();
+        return _context.Fornecedors.Find(id)!;
     }
 
     public void Cadastrar(Fornecedor fornecedor)
     {
-        throw new NotImplementedException();
+        _context.Fornecedors.Add(fornecedor);
+        _context.SaveChanges();
     }
 
     public void Deletar(Guid id)
