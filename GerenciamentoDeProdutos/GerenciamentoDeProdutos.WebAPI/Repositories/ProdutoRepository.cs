@@ -24,7 +24,11 @@ public class ProdutoRepository : IProdutoRepository
         }
     }
 
+<<<<<<< HEAD
+    public Produto BuscarPorId(Guid id)
+=======
     public  Produto BuscarPorId(Guid id)
+>>>>>>> 433f8b5865e360538284fce05b79ead68463f63f
     {
         return _context.Produtos.Find(id)!;
     }

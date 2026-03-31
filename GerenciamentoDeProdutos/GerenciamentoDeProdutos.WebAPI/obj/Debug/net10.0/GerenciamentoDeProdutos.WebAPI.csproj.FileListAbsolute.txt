@@ -311,3 +311,7 @@ C:\Users\54470890855\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\Gerenciamen
 C:\Users\54470890855\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\GerenciamentoDeProdutos\GerenciamentoDeProdutos.WebAPI\obj\Debug\net10.0\GerenciamentoDeProdutos.WebAPI.pdb
 C:\Users\54470890855\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\GerenciamentoDeProdutos\GerenciamentoDeProdutos.WebAPI\obj\Debug\net10.0\GerenciamentoDeProdutos.WebAPI.genruntimeconfig.cache
 C:\Users\54470890855\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\GerenciamentoDeProdutos\GerenciamentoDeProdutos.WebAPI\obj\Debug\net10.0\ref\GerenciamentoDeProdutos.WebAPI.dll
+C:\Users\54198904880\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\GerenciamentoDeProdutos\GerenciamentoDeProdutos.WebAPI\obj\Debug\net10.0\GerenciamentoDeProdutos.WebAPI.csproj.AssemblyReference.cache
+C:\Users\54198904880\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\GerenciamentoDeProdutos\GerenciamentoDeProdutos.WebAPI\obj\Debug\net10.0\GerenciamentoDeProdutos.WebAPI.dll
+C:\Users\54198904880\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\GerenciamentoDeProdutos\GerenciamentoDeProdutos.WebAPI\obj\Debug\net10.0\refint\GerenciamentoDeProdutos.WebAPI.dll
+C:\Users\54198904880\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\GerenciamentoDeProdutos\GerenciamentoDeProdutos.WebAPI\obj\Debug\net10.0\GerenciamentoDeProdutos.WebAPI.pdb
