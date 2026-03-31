@@ -24,15 +24,12 @@ public class ProdutoRepository : IProdutoRepository
         }
     }
 
-<<<<<<< HEAD
-    public Produto BuscarPorId(Guid id)
-=======
-    public  Produto BuscarPorId(Guid id)
->>>>>>> 433f8b5865e360538284fce05b79ead68463f63f
-    {
-        return _context.Produtos.Find(id)!;
-    }
 
+
+    /// <summary>
+    /// Endpoint para cadastrar um novo produto. 
+    /// </summary>
+    /// <param name="produto">Produto Cadastrado</param>
     public void Cadastrar(Produto produto)
     {
         _context.Produtos.Add(produto);
@@ -53,5 +50,10 @@ public class ProdutoRepository : IProdutoRepository
     public List<Produto> Listar()
     {
         return _context.Produtos.OrderBy(Produto => Produto.Nome).ToList();
+    }
+
+    Produto IProdutoRepository.BuscarPorId(Guid id)
+    {
+        throw new NotImplementedException();
     }
 }

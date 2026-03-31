@@ -1,20 +1,299 @@
 [
   {
-    "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_0",
-    "RelativePath": "",
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.CategoriaController",
+    "Method": "Listar",
+    "RelativePath": "api/Categoria",
     "HttpMethod": "GET",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.CategoriaController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain"
-        ],
-        "StatusCode": 200
+        "Name": "categoria",
+        "Type": "GerenciamentoDeProdutos.WebAPI.DTO.CategoriaDTO",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.CategoriaController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.CategoriaController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoria",
+        "Type": "GerenciamentoDeProdutos.WebAPI.DTO.CategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.CategoriaController",
+    "Method": "Deletar",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.FornecedorController",
+    "Method": "Listar",
+    "RelativePath": "api/Fornecedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.FornecedorController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Fornecedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fornecedor",
+        "Type": "GerenciamentoDeProdutos.WebAPI.DTO.FornecedorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.FornecedorController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Fornecedor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.FornecedorController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Fornecedor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "fornecedor",
+        "Type": "GerenciamentoDeProdutos.WebAPI.DTO.FornecedorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.FornecedorController",
+    "Method": "Deletar",
+    "RelativePath": "api/Fornecedor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.ProdutoController",
+    "Method": "Listar",
+    "RelativePath": "api/Produto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.ProdutoController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Produto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Preco",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "QuantidadeEstoque",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Imagem",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdCategoria",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdFornecedor",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.ProdutoController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/Produto/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.ProdutoController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Produto/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Preco",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "QuantidadeEstoque",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Imagem",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdCategoria",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdFornecedor",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoDeProdutos.WebAPI.Controllers.ProdutoController",
+    "Method": "Delete",
+    "RelativePath": "api/Produto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

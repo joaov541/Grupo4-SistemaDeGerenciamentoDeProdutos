@@ -1,6 +1,7 @@
 ﻿using GerenciamentoDeProdutos.WebAPI.DTO;
 using GerenciamentoDeProdutos.WebAPI.Interfaces;
 using GerenciamentoDeProdutos.WebAPI.Models;
+using GerenciamentoDeProdutos.WebAPI.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,6 +18,7 @@ public class FornecedorController : ControllerBase
         _fornecedorRepository = fornecedorRepository;
     }
 
+   
     [HttpGet]
     public IActionResult Listar()
     {
@@ -56,7 +58,8 @@ public class FornecedorController : ControllerBase
                 Contato = fornecedor.Contato,
                 Email = fornecedor.Email
             };
-            return Ok(novoFornecedor);
+            _fornecedorRepository.Cadastrar(novoFornecedor);
+            return StatusCode(201, novoFornecedor);
         }
         catch (Exception erro)
         {

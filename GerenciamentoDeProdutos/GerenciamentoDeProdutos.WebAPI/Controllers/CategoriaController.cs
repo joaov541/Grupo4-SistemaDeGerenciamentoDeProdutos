@@ -64,14 +64,14 @@ public class CategoriaController : ControllerBase
     {
         try
         {
-            var noaCategoria = new Categoria
+            var novaCategoria = new Categoria
             {
                 Nome = categoria.Nome,
                 Descricao = categoria.Descricao
             };
 
-            _categoriaRepository.Cadastrar(noaCategoria);
-            return StatusCode(201, noaCategoria);
+            _categoriaRepository.Cadastrar(novaCategoria);
+            return StatusCode(201, novaCategoria);
         }
         catch (Exception erro)
         {

@@ -12,13 +12,14 @@ builder.Services.AddDbContext<LojaContext>(optionsAction =>
     optionsAction.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-var app = builder.Build();
-
 builder.Services.AddControllers();
+
 
 builder.Services.AddOpenApi();
 
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+builder.Services.AddScoped<IFornecedorRepository, FornecedorRepository>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 
 
 //Adiciona Swagger
@@ -63,6 +64,7 @@ builder.Services.AddSwaggerGen(options =>
 
 });
 
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
