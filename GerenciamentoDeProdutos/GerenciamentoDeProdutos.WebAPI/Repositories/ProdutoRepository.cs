@@ -24,11 +24,6 @@ public class ProdutoRepository : IProdutoRepository
         }
     }
 
-    public List<Produto> BuscarPorId(Guid id)
-    {
-        return _context.Produtos.Find(id)!;
-    }
-
     public void Cadastrar(Produto produto)
     {
         _context.Produtos.Add(produto);
@@ -49,5 +44,10 @@ public class ProdutoRepository : IProdutoRepository
     public List<Produto> Listar()
     {
         return _context.Produtos.OrderBy(Produto => Produto.Nome).ToList();
+    }
+
+    Produto IProdutoRepository.BuscarPorId(Guid id)
+    {
+        throw new NotImplementedException();
     }
 }

@@ -1,0 +1,37 @@
+CREATE DATABASE Loja;
+GO
+
+USE Loja;
+GO
+
+-- Categoria
+CREATE TABLE Categoria (
+    IdCategoria UNIQUEIDENTIFIER PRIMARY KEY DEFAULT ((NEWID())),
+    Nome VARCHAR(150) NOT NULL,
+    Descricao VARCHAR(255)
+);
+GO
+
+-- Fornecedor
+CREATE TABLE Fornecedor (
+    IdFornecedor UNIQUEIDENTIFIER PRIMARY KEY DEFAULT ((NEWID())),
+    Nome VARCHAR(150)       NOT NULL,
+    CNPJ VARCHAR(150)       NOT NULL,
+    Contato VARCHAR(150)    NOT NULL,
+    Email VARCHAR(150)      NOT NULL
+);
+GO
+
+-- Produto
+CREATE TABLE Produto (
+    IdProduto UNIQUEIDENTIFIER PRIMARY KEY DEFAULT ((NEWID())),
+    Nome VARCHAR(150) NOT NULL,
+    Descricao VARCHAR(255),
+    Preco DECIMAL(10,2) NOT NULL,
+    QuantidadeEstoque INT NOT NULL,
+    Imagem VARCHAR(255),
+
+    IdCategoria UNIQUEIDENTIFIER FOREIGN KEY REFERENCES Categoria(IdCategoria) NOT NULL,
+    IdFornecedor UNIQUEIDENTIFIER FOREIGN KEY REFERENCES Fornecedor(IdFornecedor) NOT NULL
+);
+GO
