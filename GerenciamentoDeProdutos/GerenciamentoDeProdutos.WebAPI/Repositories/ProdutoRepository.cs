@@ -24,7 +24,7 @@ public class ProdutoRepository : IProdutoRepository
         }
     }
 
-    public List<Produto> BuscarPorId(Guid id)
+    public Produto BuscarPorId(Guid id)
     {
         return _context.Produtos.Find(id)!;
     }
