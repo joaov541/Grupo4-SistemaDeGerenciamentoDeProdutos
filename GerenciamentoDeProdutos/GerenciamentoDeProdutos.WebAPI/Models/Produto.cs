@@ -27,7 +27,7 @@ public partial class Produto
 
     [StringLength(255)]
     [Unicode(false)]
-    public string? Imagem { get; set; }
+    public IFormFile? Imagem { get; set; }
 
     public Guid IdCategoria { get; set; }
 
@@ -35,7 +35,7 @@ public partial class Produto
 
     [ForeignKey("IdCategoria")]
     [InverseProperty("Produtos")]
-    public virtual Categorium IdCategoriaNavigation { get; set; } = null!;
+    public virtual Categoria IdCategoriaNavigation { get; set; } = null!;
 
     [ForeignKey("IdFornecedor")]
     [InverseProperty("Produtos")]
