@@ -18,14 +18,10 @@ public class FornecedorController : ControllerBase
         _fornecedorRepository = fornecedorRepository;
     }
 
-<<<<<<< HEAD
-   
-=======
     /// <summary>
-    /// Endpoint da API que faz chamada para o metodo de listar o fornecedor
+    /// Endpoint da API que faz a chamada para um metodo de listar fornecedores
     /// </summary>
-    /// <returns>Status code 200 e a lista o fornecedor</returns>
->>>>>>> 55b450c945370e766fc3b421f8d0eb0a44a87ebd
+    /// <returns>Lista de fornecedores</returns>
     [HttpGet]
     public IActionResult Listar()
     {

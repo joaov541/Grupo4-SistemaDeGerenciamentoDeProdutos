@@ -3568,55 +3568,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\54198904880\\.nuget\\packages\\": {},
-=======
-<<<<<<< HEAD
-    "C:\\Users\\53280190835\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\47709625843\\.nuget\\packages\\": {},
->>>>>>> 9b6fb858b1c1ef95dde2c0038eb66d9c39b4e806
->>>>>>> 55b450c945370e766fc3b421f8d0eb0a44a87ebd
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\54198904880\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
       "projectName": "GerenciamentoDeProdutos.WebAPI",
       "projectPath": "C:\\Users\\54198904880\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
       "packagesPath": "C:\\Users\\54198904880\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\54198904880\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\obj\\",
-=======
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\53280190835\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
-      "projectName": "GerenciamentoDeProdutos.WebAPI",
-      "projectPath": "C:\\Users\\53280190835\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\53280190835\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\53280190835\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\47709625843\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
-      "projectName": "GerenciamentoDeProdutos.WebAPI",
-      "projectPath": "C:\\Users\\47709625843\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\47709625843\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47709625843\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\obj\\",
->>>>>>> 9b6fb858b1c1ef95dde2c0038eb66d9c39b4e806
->>>>>>> 55b450c945370e766fc3b421f8d0eb0a44a87ebd
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\Users\\54198904880\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-        "C:\\Users\\53280190835\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\47709625843\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 9b6fb858b1c1ef95dde2c0038eb66d9c39b4e806
->>>>>>> 55b450c945370e766fc3b421f8d0eb0a44a87ebd
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4108,21 +4076,5 @@
         }
       }
     }
-<<<<<<< HEAD
   }
-=======
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-<<<<<<< HEAD
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\53280190835\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
-=======
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\47709625843\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
->>>>>>> 9b6fb858b1c1ef95dde2c0038eb66d9c39b4e806
-    }
-  ]
->>>>>>> 55b450c945370e766fc3b421f8d0eb0a44a87ebd
 }

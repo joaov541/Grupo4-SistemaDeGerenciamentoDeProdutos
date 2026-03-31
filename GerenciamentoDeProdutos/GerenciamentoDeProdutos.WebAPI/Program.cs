@@ -18,13 +18,9 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
-<<<<<<< HEAD
 builder.Services.AddScoped<IFornecedorRepository, FornecedorRepository>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
-=======
-builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
-builder.Services.AddScoped<IFornecedorRepository, FornecedorRepository>();
->>>>>>> 55b450c945370e766fc3b421f8d0eb0a44a87ebd
+
 
 
 //Adiciona Swagger
