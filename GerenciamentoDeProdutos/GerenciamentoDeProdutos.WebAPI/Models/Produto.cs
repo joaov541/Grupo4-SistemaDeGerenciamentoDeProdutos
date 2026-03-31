@@ -27,7 +27,7 @@ public partial class Produto
 
     [StringLength(255)]
     [Unicode(false)]
-    public string? Imagem { get; set; }
+    public IFormFile? Imagem { get; set; }
 
     public Guid IdCategoria { get; set; }
 

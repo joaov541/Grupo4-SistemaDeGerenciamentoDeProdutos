@@ -1,6 +1,7 @@
 ﻿using GerenciamentoDeProdutos.WebAPI.BdContextLoja;
 using GerenciamentoDeProdutos.WebAPI.Interfaces;
 using GerenciamentoDeProdutos.WebAPI.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 namespace GerenciamentoDeProdutos.WebAPI.Repositories;
@@ -39,11 +40,17 @@ public class FornecedorRepository : IFornecedorRepository
 
     public void Deletar(Guid id)
     {
-        throw new NotImplementedException();
+        var ContatoBuscado = _context.Fornecedors.Find(id);
+
+        if (ContatoBuscado != null)
+        {
+            _context.Fornecedors.Remove(ContatoBuscado);
+            _context.SaveChanges();
+        }
     }
 
     public List<Fornecedor> Listar()
     {
-        throw new NotImplementedException();
+        return _context.Fornecedors.OrderBy(Fornecedor => Fornecedor.Nome).ToList();
     }
 }
