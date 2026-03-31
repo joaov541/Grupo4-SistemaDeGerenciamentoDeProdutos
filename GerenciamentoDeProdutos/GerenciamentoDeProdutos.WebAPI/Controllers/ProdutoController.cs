@@ -17,6 +17,10 @@ public class ProdutoController : ControllerBase
         _produtoRepository = produtoRepository;
     }
 
+    /// <summary>
+    /// Endpoint para listar todos os produtos cadastrados no sistema
+    /// </summary>
+    /// <returns>Status code 200 e lista de categorias</returns>
     [HttpGet]
     public IActionResult Listar()
     {
@@ -30,6 +34,11 @@ public class ProdutoController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint para buscar um produto específico através do seu ID
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns>Status code 200 e categoria buscada</returns>
     [HttpGet("{id}")]
     public IActionResult BuscarPorId(Guid id)
     {
@@ -43,6 +52,11 @@ public class ProdutoController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint para cadastrar um novo produto no sistema.
+    /// </summary>
+    /// <param name="produto"></param>
+    /// <returns>Status code 201 e categoria cadastrada</returns>
     [HttpPost]
     public async Task<IActionResult> Cadastrar([FromForm] ProdutoDTO produto)
     {
@@ -93,6 +107,12 @@ public class ProdutoController : ControllerBase
 
     }
 
+    /// <summary>
+    /// Endpoint para atualizar os dados de um produto já cadastrado no sistema.
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="produtoAtualizado"></param>
+    /// <returns>Status code 201 e categoria atualizada</returns>
     [HttpPut("{id}")]
     public async Task<IActionResult> Atualizar(Guid id, [FromForm] ProdutoDTO produtoAtualizado)
     {
@@ -145,6 +165,11 @@ public class ProdutoController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint para deletar um produto cadastrado no sistema, através do seu ID.
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
     [HttpDelete("{id}")]
     public IActionResult Delete(Guid id)
     {
