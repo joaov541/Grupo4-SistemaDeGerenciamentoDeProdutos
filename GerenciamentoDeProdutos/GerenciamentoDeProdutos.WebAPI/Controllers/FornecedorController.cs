@@ -1,6 +1,7 @@
 ﻿using GerenciamentoDeProdutos.WebAPI.DTO;
 using GerenciamentoDeProdutos.WebAPI.Interfaces;
 using GerenciamentoDeProdutos.WebAPI.Models;
+using GerenciamentoDeProdutos.WebAPI.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,6 +18,10 @@ public class FornecedorController : ControllerBase
         _fornecedorRepository = fornecedorRepository;
     }
 
+    /// <summary>
+    /// Endpoint da API que faz a chamada para um metodo de listar fornecedores
+    /// </summary>
+    /// <returns>Lista de fornecedores</returns>
     [HttpGet]
     public IActionResult Listar()
     {
@@ -30,6 +35,12 @@ public class FornecedorController : ControllerBase
             return BadRequest(erro.Message);
         }
     }
+
+    /// <summary>
+    /// Endpoint da API que faz a chamada para um metodo de buscar fornecedor
+    /// </summary>
+    /// <param name="id">Id do fornecedor buscado</param>
+    /// <returns>Status code 200 e  fornecedor buscado</returns>
     [HttpGet("{id}")]
     public IActionResult BuscarPorId(Guid id)
     {
@@ -44,6 +55,11 @@ public class FornecedorController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint da API que faz a chamada para um metodo de cadastrar fornecedor
+    /// </summary>
+    /// <param name="fornecedor">Fornecedor a ser cadastrado</param>
+    /// <returns>Status code 201 e o fornecedor cadastrado</returns>
     [HttpPost]
     public IActionResult Cadastrar(FornecedorDTO fornecedor)
     {
@@ -56,13 +72,20 @@ public class FornecedorController : ControllerBase
                 Contato = fornecedor.Contato,
                 Email = fornecedor.Email
             };
-            return Ok(novoFornecedor);
+            _fornecedorRepository.Cadastrar(novoFornecedor);
+            return StatusCode(201, novoFornecedor);
         }
         catch (Exception erro)
         {
             return BadRequest(erro.Message);
         }
     }
+
+    /// <summary>
+    /// Endpoint da API que faz a chamada para um metodo de atualizar fornecedor
+    /// </summary>
+    /// <param name="id">Fornecedor com os dados atualizados/param>
+    /// <returns>Status code 204 e o tipo de evento atualizado</returns>
     [HttpPut("{id}")]
     public IActionResult Atualizar(Guid id, FornecedorDTO fornecedor)
     {
@@ -82,6 +105,11 @@ public class FornecedorController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint da API que faz a chamada para um metodo de deletar fornecedor 
+    /// </summary>
+    /// <param name="id">Id do fornecedor a ser excluido</param>
+    /// <returns>Status code 204</returns>
     [HttpDelete("{id}")]
     public IActionResult Deletar(Guid id)
     {
