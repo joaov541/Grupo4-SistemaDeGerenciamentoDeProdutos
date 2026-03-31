@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\53280190835\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\53280190835\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
         "packagesPath": "C:\\Users\\53280190835\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\53280190835\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\obj\\",
+=======
+    "C:\\Users\\47709625843\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\47709625843\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\47709625843\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
+        "projectName": "GerenciamentoDeProdutos.WebAPI",
+        "projectPath": "C:\\Users\\47709625843\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\GerenciamentoDeProdutos.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\47709625843\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\47709625843\\Desktop\\Grupo4-SistemaDeGerenciamentoDeProdutos\\GerenciamentoDeProdutos\\GerenciamentoDeProdutos.WebAPI\\obj\\",
+>>>>>>> 9b6fb858b1c1ef95dde2c0038eb66d9c39b4e806
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\53280190835\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\47709625843\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 9b6fb858b1c1ef95dde2c0038eb66d9c39b4e806
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

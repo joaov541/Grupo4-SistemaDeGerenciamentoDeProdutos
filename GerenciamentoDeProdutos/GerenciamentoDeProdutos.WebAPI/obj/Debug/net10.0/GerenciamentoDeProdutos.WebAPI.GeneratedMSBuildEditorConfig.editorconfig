@@ -19,13 +19,21 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = GerenciamentoDeProdutos.WebAPI
 build_property.RootNamespace = GerenciamentoDeProdutos.WebAPI
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\53280190835\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\GerenciamentoDeProdutos\GerenciamentoDeProdutos.WebAPI\
+=======
+build_property.ProjectDir = C:\Users\47709625843\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\GerenciamentoDeProdutos\GerenciamentoDeProdutos.WebAPI\
+>>>>>>> 9b6fb858b1c1ef95dde2c0038eb66d9c39b4e806
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\53280190835\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\GerenciamentoDeProdutos\GerenciamentoDeProdutos.WebAPI
+=======
+build_property.MSBuildProjectDirectory = C:\Users\47709625843\Desktop\Grupo4-SistemaDeGerenciamentoDeProdutos\GerenciamentoDeProdutos\GerenciamentoDeProdutos.WebAPI
+>>>>>>> 9b6fb858b1c1ef95dde2c0038eb66d9c39b4e806
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
